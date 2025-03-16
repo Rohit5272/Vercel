@@ -30,66 +30,11 @@
   </tbody>
 </table>
 
-<table class="table caption-top">
-  <caption>List of users</caption>
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>twitter</td>
-    </tr>
-  </tbody>
-</table>
-
-<table class="table caption-top">
-  <caption>List of users</caption>
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>twitter</td>
-    </tr>
-  </tbody>
-</table>
+<h3>Basic Video Player</h3>
+<div class="dance">
+  <vg-player>
+    <video [vgMedia]="$any(media)" #media id="singleVideo" preload="auto" controls>
+      <source src="../assets/video/VID20241130200410 (1) (1).mp4" type="video/mp4">
+    </video>
+  </vg-player>
+</div>

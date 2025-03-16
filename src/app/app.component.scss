@@ -1,0 +1,23 @@
+.dance {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    // height: 100vh; // Adjust based on your layout
+    // background-color: #000; // Background color for better contrast
+  
+    vg-player {
+      width: 80%; // Adjust width as needed
+      max-width: 800px; // Prevents the player from becoming too large
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+  
+      video {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+      }
+    }
+  }
+  
